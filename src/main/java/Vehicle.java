@@ -5,7 +5,7 @@ public class Vehicle {
         float engineSize;
         String fuelType;
 
-        public int setNumber0fWheels () {
+    public int setNumber0fWheels () {
         return number0fWheels;
         }
 

@@ -1,6 +1,8 @@
-public class Car {
- Vehicle Info = new Vehicle();
- int Vehicle = Vehicle;
+public class Car extends Vehicle {
+    public Car(int number0fwheels, String color, float engineSize, String fuelType) {
+
+    }
+
  String brand;
 
  public void Honk(){
@@ -8,10 +10,10 @@ public class Car {
  }
  public void displayInfo(){
      System.out.println("Brand " + brand );
-     System.out.println("Number of wheels " + getNumberOfWheels() );
-     System.out.println("Color " + getColor() );
-     System.out.println("Engine Size " + getEngineSize() );
-     System.out.println("Fuel Type " + getFuelType );
+     System.out.println("Number of wheels " + getNumber0fWheels());
+     System.out.println("Color " + getColor());
+     System.out.println("Engine Size " + getEngineSize());
+     System.out.println("Fuel Type " + getFuelType());
 
 
  }
