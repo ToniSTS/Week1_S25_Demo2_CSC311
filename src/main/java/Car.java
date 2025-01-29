@@ -6,8 +6,13 @@ public class Car {
  public void Honk(){
     System.out.println("Honk, honk");
  }
- public String displayInfo(){
-     System.out.println("car info: " + Vehicle );
+ public void displayInfo(){
+     System.out.println("Brand " + brand );
+     System.out.println("Number of wheels " + getNumberOfWheels() );
+     System.out.println("Color " + getColor() );
+     System.out.println("Engine Size " + getEngineSize() );
+     System.out.println("Fuel Type " + getFuelType );
+
 
  }
 }
