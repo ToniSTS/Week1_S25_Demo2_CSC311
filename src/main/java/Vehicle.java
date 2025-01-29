@@ -1,5 +1,5 @@
 public class Vehicle {
-    public static int id;
+
         int number0fWheels;
         String color;
         float engineSize;
@@ -11,6 +11,7 @@ public class Vehicle {
 
         public int getNumber0fWheels(int number0fwheels){
             this.number0fWheels = number0fwheels;
+            return number0fwheels;
         }
 
         public String setColor() {
@@ -19,6 +20,7 @@ public class Vehicle {
 
         public String getColor(String Color){
         this.color = color;
+        return color;
         }
 
         public float setEngineSize(){
@@ -26,6 +28,7 @@ public class Vehicle {
         }
         public float getEngineSize(float engineSize){
             this.engineSize = engineSize;
+            return engineSize;
         }
 
         public String setFuelType() {
@@ -33,6 +36,7 @@ public class Vehicle {
         }
         public String getFuelType(){
             this.fuelType = fuelType;
+            return fuelType;
         }
 
 
