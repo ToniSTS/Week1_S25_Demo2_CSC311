@@ -1,12 +1,13 @@
 public class Car {
  Vehicle Info = new Vehicle();
+ int Vehicle = Vehicle;
  String brand;
 
  public void Honk(){
     System.out.println("Honk, honk");
  }
  public String displayInfo(){
-     System.out.println("car info: " + )
+     System.out.println("car info: " + Vehicle );
 
  }
 }
