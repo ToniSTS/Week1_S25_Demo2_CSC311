@@ -1,7 +1,4 @@
 public class Car extends Vehicle {
-    public Car(int number0fwheels, String color, float engineSize, String fuelType) {
-
-    }
 
  String brand;
 
