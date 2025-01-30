@@ -22,7 +22,7 @@ public class Vehicle {
         }
 
         public String setColor() {
-        return color;
+            return color;
         }
 
         public String getColor(){

@@ -1,7 +1,6 @@
 public class Car extends Vehicle {
-    public Car(int number0fwheels, String color, float engineSize, String fuelType){
-        super(number0fwheels, color, engineSize, fuelType);
-        this.brand = brand;
+    public Car(int number0fWheels, String color, float engineSize, String fuelType){
+        super(number0fWheels, color, engineSize, fuelType);
     }
 
  String brand;
