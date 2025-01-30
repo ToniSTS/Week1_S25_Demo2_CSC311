@@ -15,6 +15,5 @@ public class Car extends Vehicle {
      System.out.println("Engine Size " + getEngineSize());
      System.out.println("Fuel Type " + getFuelType());
 
-
  }
 }
